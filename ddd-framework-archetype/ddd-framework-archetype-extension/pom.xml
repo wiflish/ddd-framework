@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.github.wiflish</groupId>
+        <artifactId>ddd-framework-archetype</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ddd-framework-archetype-extension</artifactId>
+    <packaging>pom</packaging>
+
+    <name>ddd-framework-archetype-extension</name>
+    <description>领域模型的扩展模块，基于领域模型的实现.</description>
+
+    <modules>
+        <module>ddd-framework-archetype-api</module>
+        <module>ddd-framework-archetype-infra</module>
+        <module>ddd-framework-archetype-application</module>
+        <module>ddd-framework-archetype-starter</module>
+    </modules>
+
+</project>

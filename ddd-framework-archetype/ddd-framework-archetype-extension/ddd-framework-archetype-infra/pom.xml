@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.github.wiflish</groupId>
+        <artifactId>ddd-framework-archetype</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ddd-framework-archetype-infra</artifactId>
+
+    <name>ddd-framework-archetype-infra</name>
+    <description>基础设施层，实现对领域模型的持久化、通知等机制，比如：持久化的实现、消息的实现等.</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.wiflish</groupId>
+            <artifactId>ddd-framework-archetype-domain</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+    </dependencies>
+</project>

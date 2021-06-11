@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.github.wiflish</groupId>
+        <artifactId>ddd-framework-archetype</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ddd-framework-archetype-application</artifactId>
+
+    <name>ddd-framework-archetype-application</name>
+    <description>对外提供服务的实现层，可以是http/dubbo等rpc框架的实现，可以理解成六边形架构的适配器.</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.github.wiflish</groupId>
+            <artifactId>ddd-framework-archetype-api</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.wiflish</groupId>
+            <artifactId>ddd-framework-archetype-domain</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+    </dependencies>
+</project>
